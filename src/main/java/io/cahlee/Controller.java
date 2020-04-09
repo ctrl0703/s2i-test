@@ -8,6 +8,6 @@ public class Controller {
 	
 	@RequestMapping("/")
 	public String hello() {
-		"hello world";
+		return "hello openshift";
 	}
 }
